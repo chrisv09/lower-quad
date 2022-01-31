@@ -11,13 +11,29 @@
 
 <tw-story></tw-story>
 
-<tw-storydata name="Lower Quad" startnode="1" creator="Twine" creator-version="2.2.1" ifid="D842D77C-D761-4FE5-A05B-7E5F4EEDEA73" zoom="1" format="Harlowe" format-version="2.1.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">
+<tw-storydata name="Lower Quad" startnode="1" creator="Twine" creator-version="2.2.1" ifid="D842D77C-D761-4FE5-A05B-7E5F4EEDEA73" zoom="1" format="Harlowe" format-version="2.1.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">body {
+  background-color: #FF0000;
+}
 
-
-
+.passage {
+	color: red;	  
+}
 
 
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -32,11 +48,8 @@ Period 4 is about to end, and you really need to go to bathroom. However, you ar
 
 You look at your watch. Only 10 more seconds...
 
-
-
 (link: &quot;Wait&quot;)[
 You burst out the door, your mind focused on emptying your system.
-
 &lt;img src=&quot;start.png&quot; width=&quot;500&quot; height=&quot;300&quot; alt=&quot;&quot;&gt;
 [[Run]]] </tw-passagedata><tw-passagedata pid="2" name="Run" tags="" position="601,299" size="100,100">As you run, you catch glimpses of other students making their way to the tuck shop. They exit your view as they enter the big square hole in the wall. The duty teacher approaches slowly after them.
 
@@ -46,6 +59,7 @@ You ignore their vibes though, and focus on clearing your drinking history.
 The doors were open, and from your perspective you could only see a brick wall, keeping the privacy of the room. You remember that these doors lead into two seperate bathrooms. Each one was a mirror image of the other. Some weird feeling washes over you, making your mind waver between the two options. 
 
 Your time is slowly being wasted. You need to get in fast, before you start leaking.
+&lt;img src=&quot;run.png&quot; width=&quot;500&quot; height=&quot;300&quot; alt=&quot;&quot;&gt;
 
 [[Left Entrance]]
 
@@ -57,50 +71,105 @@ Looking around the brick wall, you see a cluster of students huddling together. 
 (if: $wait is not 1)[
 There is a tall blond guy in front of you, facing away from you. Seems like 	he&#39;s waiting for one of the stalls to open.](else:)[Fortunately, you see no-one waiting to use the stalls. Seems like a safe option.]
 
-On your right is the urinal. It&#39;s made of a long sheet of metal that seems to have worn out from being used. In the drain are a few bars of blue soap.
+On your right is the urinal. It&#39;s made of a long sheet of metal that seems thats grown some rust from being used. In the drain are a few bars of blue soap.
 
 [[Peer into the cluster of students]]
 (if: $wait is not 1)[
 [[Wait in line]]](else:)[
 [[Use the stalls]]]
 
-[[Use the urinal]]</tw-passagedata><tw-passagedata pid="4" name="Wait..." tags="" position="400,500" size="100,100">You think for a bit more, still wavering between the two options. Standing right outside, you head facing the bathrooms. *This looks kinda weird...* As you idly loiter, You realise that you actually haven&#39;t visited the (color: Red)[**Lower Quad Bathrooms**] since last year. 
+[[Use the urinal]]</tw-passagedata><tw-passagedata pid="4" name="Wait..." tags="" position="400,500" size="100,100">You think for a bit more, your mind still wavering between the two options. Standing right outside, you head facing the bathrooms. Other students making their way in and out of the bathrooms. *This looks kinda weird...* As you idly loiter, You realise that you actually haven&#39;t visited the (color: Red)[**Lower Quad Bathrooms**] since last year. 
 *Can&#39;t really say I miss it...*
 
 As you wait for a few more seconds, you see a tall, blond student exit the right door. His head is almost as high as the door, you could assume that he is a senior of some sort. As he walks out, he notices you and squints his eyes. You make eye contact for a second before he leaves.
 (set: $wait to 1)
-You still have this constant urge of to urinate. Your indecisiveness seems to wash away now, and you feel confident in your next decision.
+The constant urge of to urinate beckons you, even louder. Your indecisiveness seems to wash away, and you feel confident in your next decision.
 
 [[Left Entrance]]
 
-[[Right Entrance]]</tw-passagedata><tw-passagedata pid="5" name="Left Entrance" tags="" position="202,500" size="100,100">The left door takes you to the left bathroom. It&#39;s just as you expected; dirty </tw-passagedata><tw-passagedata pid="6" name="Peer into the cluster of students" tags="" position="490,675" size="100,100">You quietly approach the students, trying your best to stay unnoticed. There seems to be pufts of gas rising from among them. </tw-passagedata><tw-passagedata pid="7" name="Use the urinal" tags="" position="672,675" size="100,100">Using the urinal makes you feel vulnerable, yet you muster the courage to use it. (if: $wait is not 1)[You don&#39;t really wanna wait in line.]
+[[Right Entrance]]</tw-passagedata><tw-passagedata pid="5" name="Left Entrance" tags="" position="202,500" size="100,100">The left door takes you to the left bathroom. It&#39;s just as you expected; dirty and full of crap. 
 
-</tw-passagedata><tw-passagedata pid="8" name="Use the stalls" tags="" position="997,675" size="100,100">As you approach the stalls, you browse your available options. 
+You immediately notice the long line to the bathroom stalls. Despite your effort to get her quickly, there are four people waiting in line. The urinals are taken as well, by students of varying heights.
 
-The first stall is the *accessibility stall*, for those in wheelchairs and what-not. It has a few drops of urine on the seat, but compared to other toilets you&#39;ve seen at the school, this one was quite clean.
+</tw-passagedata><tw-passagedata pid="6" name="Peer into the cluster of students" tags="" position="430,677" size="100,100">You quietly approach the students, trying your best to stay unnoticed. There seems to be pufts of gas rising from among them. They&#39;re quietly whispering to each other. *They&#39;re definitely vaping...*
 
-The second one, however, was not. The toilet was fully clogged with toilet paper, and its contents seemed ready to spill on the next flush. You decide not to count this stall as an option.
+You hear their soft murmurs. &quot;Is this *hoon* raspberry?&quot; 
+&quot;No, you troglodyte...&quot; You hear a third, lower voice interrupt them.
+&quot;Shut up guys, don&#39;t make it obvious!&quot; 
 
-(if: $waitinLine is 1)[The third stall was locked, and occupied.](else:)[The third stall had no toilet seat, which was odd. (if: $toldBagOpen is 1)[You also notice a clear lunchbox on the floor in this stall.]]
+[[Greet them]]
 
-The fourth and last stall had the toilet seat up, and an old sandwich was placed upon the toilet&#39;s flush buttons.
+[[Ignore them]]</tw-passagedata><tw-passagedata pid="7" name="Use the urinal" tags="" position="625,663" size="100,100">(if: $wait is not 1)[You&#39;d rather not wait in line. ]Using the urinal makes you feel vulnerable, yet you muster the courage to use it.  (set: $usedUrinal to 1)
 
+Doing your business in the corner, you feel like you&#39;re being watched. You turn your head to see, and the guy in line quickly turns his head away from you. *How odd.*
+
+After you finish, you feel the vapers&#39; fruity stench intensify. It almost feels sickening now, as your nose tenses up. You smell danger.
+
+You remember that the principal recently talked about smoke alarms being installed within the bathrooms to counteract vaping. 
+
+[[Turn around|Emergency]]
+</tw-passagedata><tw-passagedata pid="8" name="Use the stalls" tags="" position="1015,613" size="100,100">As you approach the stalls, you browse your available options. 
+
+The first stall is the *accessibility stall*, for those who are crippled. It has a few drops of urine on the seat, but compared to other toilets you&#39;ve seen in this school, this one was quite clean.
+
+The second one however, is not. The toilet is fully clogged with toilet paper, and its hellish contents were ready to spill on the next flush. You decide not to count this stall as an option.
+
+(if: $waitinLine is 1)[The third stall is locked, and occupied by the tall student that was in line.(set: $thirdStallLocked to 1)](else:)[The third stall has no toilet seat, which is odd. You also notice a clear lunchbox on the floor in this stall.]
+
+The fourth and last stall has the toilet seat up, and a plastic-covered moldy sandwich is carefully placed upon the toilet&#39;s flush buttons.
+(if: $thirdStallLocked is not 1)[
 [[First stall]]
 
 [[Third stall]]
 
-[[Fourth stall]]</tw-passagedata><tw-passagedata pid="9" name="Wait in line" tags="" position="847,675" size="100,100">(set: $waitinLine to 1)
-You decide to wait in line behind the *tree*. As you approach, he doesn&#39;t seem to notice you there. On closer inspection, you can see that he&#39;s wearing one of those light senior shirts.
+[[Fourth stall]]]
+(else:)[
+[[First stall]]
+
+[[Fourth stall]]]</tw-passagedata><tw-passagedata pid="9" name="Wait in line" tags="" position="791,647" size="100,100">(set: $waitinLine to 1)
+You decide to wait in line behind the *tree* man. As you approach, he doesn&#39;t seem to notice you there. On closer inspection, you can see that he&#39;s wearing one of those light senior shirts.
 
 *His bag&#39;s open.* It really was. In fact, it was so open that you could see each book in his backpack at eye-level. A lunchbox was situated on top, almost ready to fall. Perhaps you should tell him this.
 
 [[Keep waiting|Use the stalls]]
 
-[[Tell him]]</tw-passagedata><tw-passagedata pid="10" name="Tell him" tags="" position="856,822" size="100,100">(set: $toldBagOpen to 1)
+[[Tell him]]</tw-passagedata><tw-passagedata pid="10" name="Tell him" tags="" position="809,774" size="100,100">(set: $toldBagOpen to 1)
 You lightly tap him on the shoulder to get his attention. He jerks upwards, and turns head around. *&quot;Hmm?&quot;*
 
 You politely tell him that his bag is open. He takes it off to check and he hurriedly fixes it. 
-*&quot;Thanks man,&quot; he replies.*</tw-passagedata><tw-passagedata pid="11" name="First stall" tags="" position="1206,627" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="12" name="Third stall" tags="" position="1202,763" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="13" name="Fourth stall" tags="" position="1037,835" size="100,100">Double-click this passage to edit it.</tw-passagedata></tw-storydata>
+*&quot;Thanks man,&quot; he replies.*
+
+As he does this, two students exit the stalls and he makes his way into the third stall. 
+
+[[Use the stalls]]</tw-passagedata><tw-passagedata pid="11" name="First stall" tags="" position="1299,850" size="100,100">Ok
+
+[[Leave the stall|Emergency]]</tw-passagedata><tw-passagedata pid="12" name="Fourth stall" tags="" position="1105,768" size="100,100">You approach the plastic-wrapped sandwich, atop the buttons of the toilet. It&#39;s clear it&#39;s been there for a few days. 
+
+Pushing it off slowly, it falls quietly on the side of the toilet. Finally, you start to do your business, within the stall.
+
+[[Leave the stall|Emergency]]</tw-passagedata><tw-passagedata pid="13" name="Third stall" tags="" position="954,757" size="100,100">(set: $readLunchbox to 1)
+You enter the third stall, the one without the toilet seat, and the lunchbox on the floor. Approaching the toilet, you look closely at the lunchbox.
+
+(link: &quot;Pick it up&quot;)[
+The lunchbox has a folded white piece of paper inside. There&#39;s some writing on it, crudely written.
+
+(font:&quot;Comic Sans MS&quot;)[&quot;Hello. To whoever is reading this, I need your help. This lunchbox is not mine and it belongs to someone else. But I&#39;m unable to bring it to them, due to reasons I cannot say. He hangs out alone in the Upper Quad at Lunch, near the stairs. Good luck.&quot;]
+
+*What an odd message.*
+
+You use the stall, while you&#39;re here.
+
+[[Leave the stall|Emergency]]
+
+</tw-passagedata><tw-passagedata pid="14" name="Greet them" tags="" position="326,818" size="100,100">&quot;Hey guys-&quot;
+
+&quot;Who are you?&quot; One of the hoon goons interrupts. &quot;If you&#39;re lookin to buy , we ain&#39;t sellin&#39;.&quot;
+
+The rest of the group looks back at you</tw-passagedata><tw-passagedata pid="15" name="Ignore them" tags="" position="516,822" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="16" name="Emergency" tags="" position="822,968" size="100,100">(if: $usedUrinal is not 1)[As soon as you leave the stall, the smoke alarm auddenly starts blaring](else:)[As soon as you turn around, the smoke alarm auddenly starts blaring]
+
+The students vaping are panicking. &quot;OH SH*T!&quot; The faint raspberry smell they were emitting is intense now. They hastily hide their vapes in their pockets. Looking up, you see the smoke alarm light flashing red. These guys are totally screwed.
+
+[[Leave the bathroom|Exiting the bathroom]]</tw-passagedata><tw-passagedata pid="17" name="Exiting the bathroom" tags="" position="815,1183" size="100,100">(if: $readLunchbox is not 1)[Apple slices, grapes and a ham sandwich spill from the fallen lunchbox.]</tw-passagedata></tw-storydata>
 
 <script title="Twine engine code" data-main="harlowe">"use strict";function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}var _slicedToArray=function(){function e(e,t){var n=[],r=!0,i=!1,o=void 0;try{for(var a,s=e[Symbol.iterator]();!(r=(a=s.next()).done)&&(n.push(a.value),!t||n.length!==t);r=!0);}catch(e){i=!0,o=e}finally{try{!r&&s.return&&s.return()}finally{if(i)throw o}}return n}return function(t,n){if(Array.isArray(t))return t;if(Symbol.iterator in Object(t))return e(t,n);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};!function(){/**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
